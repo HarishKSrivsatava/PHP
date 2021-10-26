@@ -13,7 +13,7 @@ $float = 5.6;
 echo "<h3> The integer value : "  . $integer . "<h3>";
 
 
-# Define a constant
+# Define a constant : Unchangable through out the program
 Define("Constant_Name", "This is the constant value");
 echo Constant_Name; // This is the way to access the value of our defined constant.
 ?>
